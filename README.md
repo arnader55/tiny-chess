@@ -15,4 +15,9 @@ Move generation is verified by perft against the five standard positions
 (startpos, kiwipete, and the three tricky ones with promotions, castling
 and en passant).
 
+Practice result (local trial vs the house gauntlet, trial0c): Elo 1173
+(1 win, 3 draws, 4 losses) — drew vs depth-2, depth-4 and nodes-1M,
+won vs depth-3 as black. Known weakness: the evaluation overvalues pawn
+pushes in the opening.
+
 Entry: `main.py` (the whole engine). License: MIT.
